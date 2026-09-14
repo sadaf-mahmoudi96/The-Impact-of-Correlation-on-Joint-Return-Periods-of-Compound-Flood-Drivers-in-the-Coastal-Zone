@@ -1,8 +1,8 @@
 To install NSVineCopula:
 
-Go here:
+# 1. Go here:
 https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html
-Install Rtools42.
+# 2. Install Rtools42.
 Restart RStudio.
 Check if R can find make
 Sys.which("make")
@@ -14,7 +14,7 @@ install.packages(
   type = "source"
 )
 
-install:
+# 3. install:
 install.packages(
 "https://github.com/agopb/NSVineCopula/blob/main/NSVineCopula_1.0.0.tar.gz",
 repos = NULL,
