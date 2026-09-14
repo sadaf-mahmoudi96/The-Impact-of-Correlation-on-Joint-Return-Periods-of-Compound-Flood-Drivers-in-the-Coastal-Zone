@@ -24,6 +24,7 @@ The workflow includes:
 R/functions.R
 run_analysis.R
 install_packages.R
+POT_Function.ipynb
 ```
 
 Place the required input CSV files in the `data/` folder and update the settings in `run_analysis.R`.
