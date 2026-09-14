@@ -22,20 +22,11 @@ The workflow includes:
 
 ```text
 R/functions.R
-run_analysis.R
-install_packages.R
+Marginals_Copulas.R
+Install_NSVineCopula.md
 POT_Function.ipynb
 ```
 
-Place the required input CSV files in the `data/` folder and update the settings in `run_analysis.R`.
-
-Run the analysis using:
-
-```r
-source("run_analysis.R")
-```
-
-Results are saved in the `results/` folder.
 
 ### Main parameters
 
